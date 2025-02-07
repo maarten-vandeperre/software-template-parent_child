@@ -1,1 +1,1 @@
-/Users/mvandepe/workspace/software-template-parent_child/_submodules/software-template-parent/build.gradle.kts
+_submodules/software-template-parent/build.gradle.kts
