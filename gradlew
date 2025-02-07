@@ -1,1 +1,1 @@
-/Users/mvandepe/workspace/software-template-parent_child/.submodules/software-template-parent/gradlew
+.submodules/software-template-parent/gradlew
