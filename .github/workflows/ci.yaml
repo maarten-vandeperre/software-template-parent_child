@@ -27,6 +27,9 @@ jobs:
       - name: Update Git submodules
         run: git submodule update --init --recursive
 
+      - name: List directory contents
+        run: ls -al
+
       - name: Sanitize repository owner
         run: echo "REPO_OWNER=${GITHUB_ACTOR//[^a-zA-Z0-9_-]}" >> $GITHUB_ENV
 
