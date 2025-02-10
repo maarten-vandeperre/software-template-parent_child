@@ -59,6 +59,15 @@ jobs:
       - name: List directory contents
         run: ls -al .
 
+      - name: Build with Gradle - multiline
+        run: |
+          ls -al .
+          ls -al .submodules/software-template-parent
+          ln -s .submodules/software-template-parent/gradlew ./gradlew
+          chmod +x .submodules/software-template-parent/gradlew
+          ./gradlew build --no-deamon
+
+
       - name: Build with Gradle
         run: ./gradlew build --no-daemon
 
