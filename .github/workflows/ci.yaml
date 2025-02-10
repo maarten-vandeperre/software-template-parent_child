@@ -75,7 +75,7 @@ jobs:
           ln -s _submodules/software-template-parent/platform ./platform
           ln -s _submodules/software-template-parent/settings.gradle.kts  ./settings.gradle.kts 
           chmod +x .submodules/software-template-parent/gradlew
-          ./gradlew build
+          ./gradlew build libertyPackage
           ls -al .submodules/software-template-parent/application/configuration/open-liberty/monolith
           ls -al .submodules/software-template-parent/application/configuration/open-liberty/monolith/build
           ls -al .submodules/software-template-parent/application/configuration/open-liberty/monolith/build/libs
