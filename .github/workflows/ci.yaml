@@ -65,7 +65,15 @@ jobs:
           ls -al .submodules/software-template-parent
           #ln -s .submodules/software-template-parent/gradlew ./gradlew
           rm ./gradlew || true
+          rm ./build.gradle.kts || true
+          rm ./gradle.properties || true
+          rm ./platform || true
+          rm ./settings.gradle.kts || true
           ln -s .submodules/software-template-parent/gradlew ./gradlew
+          ln -s .submodules/software-template-parent/build.gradle.kts ./build.gradle.kts
+          ln -s .submodules/software-template-parent/gradle.properties ./gradle.properties
+          ln -s .submodules/software-template-parent/platform ./platform
+          ln -s .submodules/software-template-parent/settings.gradle.kts  ./settings.gradle.kts 
           chmod +x .submodules/software-template-parent/gradlew
           ./gradlew build --no-deamon
 
