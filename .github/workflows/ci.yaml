@@ -27,6 +27,9 @@ jobs:
       - name: Update Git submodules
         run: git submodule update --init --recursive
 
+      - name: List submodules contents
+        run: ls -al .submodules/software-template-parent
+
       - name: List directory contents
         run: ls -al
 
