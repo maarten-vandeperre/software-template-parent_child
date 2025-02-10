@@ -31,7 +31,7 @@ jobs:
         run: ls -al .submodules/software-template-parent
 
       - name: List directory contents
-        run: ls -al
+        run: ls -al .
 
       - name: Sanitize repository owner
         run: echo "REPO_OWNER=${GITHUB_ACTOR//[^a-zA-Z0-9_-]}" >> $GITHUB_ENV
@@ -52,6 +52,9 @@ jobs:
 
       #- name: Grant execute permission for Gradle wrapper
       #  run: chmod +x gradlew
+
+      - name: List directory contents
+        run: ls -al .
 
       - name: Build with Gradle
         run: ./gradlew build --no-daemon
