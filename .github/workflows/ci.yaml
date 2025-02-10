@@ -53,6 +53,9 @@ jobs:
       #- name: Grant execute permission for Gradle wrapper
       #  run: chmod +x gradlew
 
+      - name: View version
+        run: cat ./version.txt
+
       - name: List directory contents
         run: ls -al .
 
