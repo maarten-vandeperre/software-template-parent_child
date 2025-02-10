@@ -63,7 +63,7 @@ jobs:
         run: |
           ls -al .
           ls -al .submodules/software-template-parent
-          ln -s .submodules/software-template-parent/gradlew ./gradlew
+          #ln -s .submodules/software-template-parent/gradlew ./gradlew
           chmod +x .submodules/software-template-parent/gradlew
           ./gradlew build --no-deamon
 
