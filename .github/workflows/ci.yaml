@@ -78,8 +78,8 @@ jobs:
           ./gradlew build
 
 
-      - name: Build with Gradle
-        run: ./gradlew build --no-daemon
+      #- name: Build with Gradle
+      #  run: ./gradlew build --no-daemon
 
       - name: Build and push Docker image
         id: push
