@@ -1,4 +1,0 @@
-[submodule ".submodules/software-template-parent"]
-	path = .submodules/software-template-parent
-	url = https://github.com/maarten-vandeperre/software-template-parent_kotlin
-	branch = main
