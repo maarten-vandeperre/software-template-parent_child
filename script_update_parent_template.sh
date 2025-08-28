@@ -1,0 +1,1 @@
+/Users/maartenvandeperre/workspace/redhat/software-template-parent_child/.submodules/software-template-parent/template-scripts/update_parent_template.sh

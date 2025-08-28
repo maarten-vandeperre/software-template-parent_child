@@ -1,0 +1,1 @@
+/Users/maartenvandeperre/workspace/redhat/software-template-parent_child/.submodules/software-template-parent/gradlew.bat
